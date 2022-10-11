@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.port{
+    height: 140vh;
+    width: 100%;
+    /* background-image: url(); */
+    background-color: black;
+    background-size: cover;
+}
+
+span{
+    color: cyan;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.title-portBtn{
+    color: white;
+    background-color: transparent;
+    font-size: 36px;
+    letter-spacing: 3px;
+    cursor: pointer; 
+}
+
+.title-ul li{
+    /* list-style-type: none; */
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.title-ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title-ul li a:hover{
+    color: cyan;
+    transition: 1s;
+}
+
+.moonColour{
+    color: cyan;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.moonColour:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.knockBtn{
+    background-color: cyan;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    /* border: 2px solid transparent; */
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.knockBtn:hover{
+    transform: scale(1.15);
+}
+
+/* ----- content section ----- */
+
+.aboutMe{
+    height: 112vh;
+    background-color: rgba(62, 62, 62, 0.482) ;
+    padding: 100px;
+    margin: 20px 45px;
+    margin-top: 65px;
+    border-radius: 20px;
+}
+
+.aboutMe-main{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -160px;
+}
+
+.aboutMe-main img{
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 2px solid cyan;
+}
+
+.aboutText{
+    margin-top: -100px;
+    margin-left: -250px;
+}
+
+.aboutText h3{
+    font-size: 54px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.aboutText #name{
+    color: white;
+    margin-left: 20px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+}
+
+.aboutText .education{
+    width: 450px;
+    height: 100px;
+    background-color: rgba(56, 56, 56, 0.479);
+    
+    margin: 15px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+}
+
+.info h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+}
+
+.info h4{
+    color: white;
+}
+
+.skill{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(56, 56, 56, 0.479);
+    
+    margin: 15px;
+    margin-right: 50px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+}
+
+.skill ul{
+    color: white;
+    margin-left: 15px;
+}
+
+.adobe li{
+    margin-left: 25px;
+}
+
+/* ----- hobby ----- */
+.hobby{
+    width: 450px;
+    height: 145px;
+    background-color: rgba(56, 56, 56, 0.479);
+    
+    position: flex;
+    /* margin: 15px; */
+    margin-left: 820px;
+    margin-top: -512px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+}
+
+.hobby ul{
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* ----- language ----- */
+.language{
+    width: 450px;
+    height: 145px;
+    background-color: rgba(56, 56, 56, 0.479);
+    
+    position: flex;
+    /* margin: 15px; */
+    margin-left: 820px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: .5px;
+}
+
+.language ul{
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*----- footer ----- */
+footer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: black;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    position: absolute;
+    text-align: center;
+    color: cyan;
+    /* bottom: 35px; */
+    font-size: 12px;
+}

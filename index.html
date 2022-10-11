@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    
+</head>
+<body>
+    <!-- Title -->
+    <div class="port">
+        <div id="particles-js"></div>
+        <nav>
+            <button class="title-portBtn" title="Peek-a-boo!"><span>Port</span>folio</button>
+            <ul class="title-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me/aboutMe.html">About me</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="skills/my-work.html">Assignment</a></li>
+                <li><a href="contact/contact.html">Contact me</a></li>
+            </ul>
+            <div class="funBar">
+                <i class="fa-solid fa-moon moonColour"></i>
+                <a href="#" class="knockBtn" onclick="ShowKnockText()">Knock knock</a>
+            </div>
+            
+        </nav>
+
+        <div class="content">
+            <h4>Hello, I am</h4>
+            <h1>Panyisa Eurpakdeewong</h1>
+        </div>
+     </div>
+
+     <!-- About me section -->
+     <section class="aboutMe">
+        <div class="aboutMe-main">
+            <img src="pic/myPic.jfif" alt="mypic">
+            <div class="aboutText">
+                <h3>About me</h3>
+                <p>I am a student of Media Technology, KMUTT. My major is Game development.
+                    I have learned about Unity by using c#, modeling 3D model by MAYA, web programming, etc.
+                    However, I'm interested in 3D model and web development.
+                </p>
+                <!-- <button class="ReadBtn"> <a href="about-me/aboutMe.html"></a> Read more</button> -->
+                <a class="ReadBtn" href="about-me/aboutMe.html" >Read more</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- Skills section -->
+     <div class="skill">
+        <div class="skillTitle">
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skillcard-box">
+            <div class="skillCard">
+                <i class="fa-solid fa-cubes"></i>
+                <h4>3D modeling</h4>
+                <div>
+                    <p>
+                        About my 3D work.
+                    </p>
+    
+                    <p class="cardBtn">
+                        <a class="skillBtn" href="skills/my-work.html">Read more</a>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="skillCard">
+                <i class="fa-solid fa-tv"></i>
+                    <h4>Web development </h4>
+                    <div>
+                        <p>
+                        About my web programming skills.
+                        </p>
+        
+                        <p>
+                            <a class="skillBtn" href="skills/web.html">Read more</a>
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        
+     </div>
+
+     <!-- Contact me section -->
+     <div class="contactMe">
+        <p>Contact</p>
+        <div class="socialMedia">
+            <a href="https://www.facebook.com/sleep.onmyown.5"> <i class="fa-brands fa-facebook"></i></a>
+            <!-- <a href="#"> <i class="fa-brands fa-instagram"></i></a> -->
+            <a href="contact/contact.html"> <i class="fa-solid fa-envelope"></i></a>
+            <a href="contact/contact.html"> <i class="fa-solid fa-mobile-screen-button"></i></a>
+        </div>
+     </div>
+
+     <!-- footer -->
+     <footer>
+        <p>
+            Copyright by Panyisa Eurpakdeewong / icon source : https://fontawesome.com / particles by VincentGarreau
+        </p>
+     </footer>
+
+     <script src="main.js"></script>
+
+     <script src="particles/particles.js"></script>
+     <script src="particles/app.js"></script>
+</body>
+</html>

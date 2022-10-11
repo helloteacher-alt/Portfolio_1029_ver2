@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.port{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(); */
+    background-color: black;
+    background-size: cover;
+}
+
+span{
+    color: cyan;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.title-portBtn{
+    color: white;
+    background-color: transparent;
+    font-size: 36px;
+    letter-spacing: 3px;
+    cursor: pointer; 
+}
+
+.title-ul li{
+    /* list-style-type: none; */
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.title-ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title-ul li a:hover{
+    color: cyan;
+    transition: 1s;
+}
+
+.moonColour{
+    color: cyan;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.moonColour:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.knockBtn{
+    background-color: cyan;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    /* border: 2px solid transparent; */
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.knockBtn:hover{
+    transform: scale(1.15);
+}
+
+/* ----- content-title ----- */
+.contentTitle{
+    background-color: rgba(62, 62, 62, 0.482) ;
+    width: 80%;
+    height: 15%;
+    /* display: flex; */
+    /* justify-content: center; */
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.contentTitle i{
+    color: cyan;
+    font-size: 54px;
+    margin: 15px ;
+}
+
+.contentTitle h4{
+    color: white;
+}
+
+/* ----- assignment ----- */
+.contentAssignment{
+    display: flex;
+    /* height: 80px; */
+    margin-left: 180px;
+    margin-top: 70px;
+}
+
+.contentAssignment a {
+    text-decoration: none;
+
+}
+
+.assignment{
+    background-color: rgba(62, 62, 62, 0.482);
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding-top: 28px;
+    border-radius: 20px;
+    
+}
+
+.assignment h3{
+    color: white;
+    font-size: 20px;
+    margin: 70px;
+    letter-spacing: 2px;
+    /* -webkit-text-stroke: 1px cyan;  */
+}
+
+.assignment h3:hover{
+    color: cyan;
+}

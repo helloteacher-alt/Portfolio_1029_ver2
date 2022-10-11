@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(188, 188, 188, 0.242);
+}
+
+.first-container{
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  margin: 200px;
+}
+
+.second-container{
+    display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+#form-container{
+text-align: left;
+}
+
+form{
+    width: 400px;
+}
+
+
+img{
+    width: 80%;
+}
+
+

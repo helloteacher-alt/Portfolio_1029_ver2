@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.port{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(); */
+    background-color: black;
+    background-size: cover;
+}
+
+span{
+    color: cyan;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.title-portBtn{
+    color: white;
+    background-color: transparent;
+    font-size: 36px;
+    letter-spacing: 3px;
+    cursor: pointer; 
+}
+
+.title-ul li{
+    /* list-style-type: none; */
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.title-ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title-ul li a:hover{
+    color: cyan;
+    transition: 1s;
+}
+
+.moonColour{
+    color: cyan;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.moonColour:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.knockBtn{
+    background-color: cyan;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    /* border: 2px solid transparent; */
+    border-radius: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.knockBtn:hover{
+    transform: scale(1.15);
+}
+
+/* ----- skill card ----- */
+.skillcard-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.skillCard{
+    color: white;
+
+    height: 285px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgba(62, 62, 62, 0.482) ;
+    border-radius: 20px;
+    margin: 20px;
+    /* position: relative;
+    overflow: hidden; */
+    text-align: center;
+}
+
+.skillCard i{
+    font-size: 72px;
+    margin: 20px 0px;
+    display: block;
+    text-align: center;
+    color: cyan;
+}
+
+.skillCard p{
+    color: rgba(37, 190, 190, 0.636);
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.skillCard .skillBtn{
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.skillCard .skillBtn:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid cyan;
+    color: white;
+}
+
+/*----- footer ----- */
+footer{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: black;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    position: absolute;
+    text-align: center;
+    color: cyan;
+    /* bottom: 35px; */
+    font-size: 12px;
+}
